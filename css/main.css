@@ -440,6 +440,9 @@ section:first-child {
         width: 90%;
         cursor: pointer;
     }
+    .pc{
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 800px) {
