@@ -1,0 +1,768 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+#head {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 1.5vw;
+}
+
+#head div:nth-child(1) p {
+    margin-left: 5vw;
+}
+
+#head div:nth-child(2) p {
+    text-align: center;
+}
+
+#head div:nth-child(3) p {
+    text-align: center;
+}
+
+#one {
+    font-size: 7vw;
+    text-align: center;
+}
+
+#one div {
+    height: 1vh;
+}
+
+#one div:nth-child(2) {
+    position: relative;
+    top: 40%;
+}
+
+#one div:nth-child(3) {
+    position: relative;
+    top: 40%;
+}
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.15;
+}
+
+.bg-video__content {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+section {
+    height: 100vh;
+    overflow: hidden;
+}
+
+section:first-child {
+    height: 90vh;
+}
+
+
+
+
+#three>div:nth-child(2) {
+    position: relative;
+    top: 10%;
+    display: grid;
+    margin-left: 10%;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    width: 80%;
+    height: 70%;
+    text-align: left;
+}
+
+#three>div:nth-child(2)>div {
+    height: 80%;
+}
+
+#three>div:nth-child(2)>div>div:nth-child(2) {
+    margin-top: 5%;
+    height: 80%;
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-radius: 1vw;
+}
+
+
+
+.BtnView {
+    background: none;
+    border: 1px solid #B9E773;
+    border-radius: 1vw;
+    color: white;
+    cursor: pointer;
+}
+
+
+#six>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vw;
+    height: 100%;
+}
+
+#footer>div {
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+
+#footer>div:nth-child(1) {
+    margin-top: 10vh;
+}
+
+.icon {
+    width: 5vw;
+}
+
+.icon>a>img {
+    width: 100%;
+}
+
+#linkBox {
+    display: flex;
+}
+
+#linkBox>div {
+    margin-left: 2%;
+}
+
+@media only screen and (max-width: 800px) {
+    #two div:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 3vw;
+    }
+
+    #two>div:nth-child(2)>div:nth-child(1) {
+        margin-top: 5%;
+    }
+
+    #two div:nth-child(2)>div:nth-child(2) {
+        width: 80%;
+        text-align: center;
+        font-size: 3vw;
+    }
+
+    #two>div:nth-child(2)>div:nth-child(2) {
+        border-top: solid;
+        border-bottom: solid;
+        padding: 5% 0 5% 0;
+    }
+
+    #two div:nth-child(2)>div:nth-child(2) div {
+        border: none;
+    }
+
+    #two>div:nth-child(2)>div:nth-child(2) img {
+        width: 70%;
+    }
+
+    #three>div:nth-child(2)>div>div:nth-child(2) {
+        margin-top: 5%;
+        height: 80%;
+        background-color: #d9d9d9;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        border-radius: 1vw;
+    }
+
+    .front {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        overflow: hidden;
+        align-items: center;
+    }
+
+    .front>img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        object-fit: scale-down;
+        width: 50%;
+        height: 50%;
+    }
+
+    .front>p {
+        font-size: 2vw;
+        text-align: left;
+        width: 100%;
+        color: black;
+    }
+
+    .back {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        overflow: hidden;
+        align-items: center;
+    }
+
+    .back>img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        object-fit: scale-down;
+        width: 50%;
+        height: 50%;
+    }
+
+    .back>p {
+        font-size: 2vw;
+        text-align: left;
+        width: 100%;
+        color: black;
+    }
+
+    .DB {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        overflow: hidden;
+        align-items: center;
+    }
+
+    .DB>img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        object-fit: scale-down;
+        width: 50%;
+        height: 50%;
+    }
+
+    .DB>p {
+        font-size: 2vw;
+        text-align: left;
+        width: 100%;
+        color: black;
+    }
+
+    .tool {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        overflow: hidden;
+        align-items: center;
+    }
+
+    .tool>img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        object-fit: scale-down;
+        width: 50%;
+        height: 50%;
+    }
+
+    .tool>p {
+        font-size: 2vw;
+        text-align: left;
+        width: 100%;
+        color: black;
+    }
+
+    .teamproject {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+    }
+
+    .teamproject:nth-of-type(2) {
+        background-image: url(로그인이밎\ 1.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .teamproject> :nth-child(1) {
+        margin-top: 25%;
+        font-size: 4vw;
+    }
+
+    .teamproject> :nth-child(2) {
+        margin-top: 10%;
+        font-size: 8vw;
+    }
+
+    .teamproject> :nth-child(3) {
+        margin-top: 10%;
+        font-size: 3vw;
+    }
+
+    .teamproject> :nth-child(4) {
+        margin-top: 10%;
+        font-size: 6vw;
+    }
+
+    .teamproject> :nth-child(5) {
+        margin-top: 10%;
+        font-size: 4vw;
+        color: #919191;
+    }
+
+    .teamproject> :nth-child(6) {
+        margin-top: 5%;
+        font-size: 3vw;
+    }
+
+    .teamproject> :nth-child(7) {
+        margin-top: 2%;
+        font-size: 3vw;
+    }
+
+    .Subproject {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+    }
+
+    .Subproject:nth-of-type(2) {
+        background-image: url(workway.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+    .Subproject:nth-of-type(2)::before {
+        opacity: 10%;
+    }
+
+    .Subproject> :nth-child(1) {
+        margin-top: 40%;
+        font-size: 8vw;
+    }
+
+    .Subproject> :nth-child(2) {
+        margin-top: 10%;
+        font-size: 3vw;
+    }
+
+    .Subproject> :nth-child(3) {
+        margin-top: 10%;
+        font-size: 6vw;
+    }
+
+    .Subproject> :nth-child(4) {
+        margin-top: 10%;
+        font-size: 3vw;
+        color: #919191;
+    }
+
+    .Subproject> :nth-child(5) {
+        margin-top: 5%;
+        font-size: 3vw;
+    }
+
+    .title {
+        font-size: 3vw;
+        width: 20vw;
+        text-align: right;
+        border-bottom: solid white;
+    }
+
+    .title p {
+        margin-bottom: -0.2vh;
+        margin-right: 1vw;
+    }
+
+    #one {
+        font-size: 12vw;
+        text-align: center;
+    }
+
+    #head {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 2vw;
+    }
+
+    #ToolBar {
+        position: fixed;
+        top: 90%;
+        left: 5%;
+        display: grid;
+        width: 90vw;
+        grid-template-columns: repeat(5, 1fr);
+        z-index: 99;
+    }
+
+    #ToolBar>div>button {
+        background: none;
+        border: 1px solid #d9d9d9;
+        color: white;
+        font-size: 2.5vw;
+        border-radius: 1vw;
+        margin-left: 1vw;
+        padding: 0.5vw;
+        width: 90%;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    #two div:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 2vw;
+    }
+
+    #two>div:nth-child(2)>div:nth-child(1) {
+        margin-top: 5%;
+    }
+
+    #two div:nth-child(2)>div:nth-child(2) {
+        width: 80%;
+        display: grid;
+        grid-template-columns: 0% 30%;
+        text-align: center;
+        font-size: 1.5vw;
+    }
+
+    #two>div:nth-child(2)>div:nth-child(2) {
+        border-top: solid;
+        border-bottom: solid;
+        padding: 5% 0 5% 0;
+    }
+
+    #two div:nth-child(2)>div:nth-child(2) div {
+        border: none;
+    }
+
+    #two>div:nth-child(2)>div:nth-child(2) img {
+        width: 100%;
+        margin-left: 50%;
+    }
+
+    #three>div:nth-child(2) {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 70% 30%;
+        column-gap: 2vw;
+        text-align: center;
+    }
+
+    #three>div:nth-child(2)>div:nth-child(4) {
+        grid-column: 1/4;
+        text-align: left;
+    }
+
+    #three>div:nth-child(2)>div:nth-child(4)>div:nth-child(2) {
+        margin-top: 2%;
+    }
+
+    #three>div:nth-child(2)>div>div:nth-child(2) {
+        height: 100%;
+        background-color: #d9d9d9;
+    }
+
+    .front {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 30% 70%;
+        overflow: hidden;
+        align-items: center;
+    }
+
+    .front>p {
+        font-size: 2vw;
+        text-align: left;
+        width: 100%;
+        color: black;
+    }
+
+    .front>img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        object-fit: scale-down;
+        width: 50%;
+        height: 50%;
+    }
+
+    .back {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        overflow: hidden;
+        align-items: center;
+    }
+
+    .back>p {
+        font-size: 1.5vw;
+        text-align: center;
+        width: 100%;
+        color: black;
+    }
+
+    .back>img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        object-fit: scale-down;
+        width: 100%;
+        height: 50%;
+    }
+
+    .DB {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        overflow: hidden;
+        align-items: center;
+    }
+
+    .DB>p {
+        font-size: 1.5vw;
+        text-align: center;
+        width: 100%;
+        color: black;
+    }
+
+    .DB>img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        object-fit: scale-down;
+        width: 100%;
+        height: 50%;
+    }
+
+    .tool {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        overflow: hidden;
+        align-items: center;
+    }
+
+    .tool>p {
+        font-size: 1.5vw;
+        text-align: center;
+        width: 100%;
+        color: black;
+    }
+
+    .tool>img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        object-fit: scale-down;
+        width: 100%;
+        height: 60%;
+    }
+
+    #three>div:nth-child(2)>div:nth-child(4)>div:nth-child(2) {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .tool {
+        width: 15vw;
+    }
+
+    #two div:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 2vw;
+    }
+
+    #two>div:nth-child(2)>div:nth-child(1) {
+        margin-top: 5%;
+    }
+
+    #two div:nth-child(2)>div:nth-child(2) {
+        width: 80%;
+        display: grid;
+        grid-template-columns: 70% 30%;
+        text-align: center;
+        font-size: 1.5vw;
+    }
+
+    #two>div:nth-child(2)>div:nth-child(2) {
+        border-top: solid;
+        border-bottom: solid;
+        padding: 5% 0 5% 0;
+    }
+
+    #two div:nth-child(2)>div:nth-child(2) div {
+        border: none;
+    }
+
+    #two>div:nth-child(2)>div:nth-child(2) img {
+        width: 100%;
+        margin-left: 50%;
+    }
+
+    .teamproject {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+    }
+
+    .teamproject:nth-of-type(2) {
+        background-image: url(로그인이밎\ 1.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .teamproject> :nth-child(1) {
+        margin-top: 10%;
+        font-size: 1.8vw;
+    }
+
+    .teamproject> :nth-child(2) {
+        margin-top: 2%;
+        font-size: 4vw;
+    }
+
+    .teamproject> :nth-child(3) {
+        margin-top: 0%;
+        font-size: 1.5vw;
+    }
+
+    .teamproject> :nth-child(4) {
+        margin-top: 2%;
+        font-size: 3vw;
+    }
+
+    .teamproject> :nth-child(5) {
+        margin-top: 2%;
+        font-size: 1.5vw;
+        color: #919191;
+    }
+
+    .teamproject> :nth-child(6) {
+        margin-top: 1%;
+        font-size: 1.5vw;
+    }
+
+    .teamproject> :nth-child(7) {
+        margin-top: 1%;
+        font-size: 1.5vw;
+    }
+
+    .Subproject {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+    }
+
+    .Subproject:nth-of-type(2) {
+        background-image: url(workway.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+    .Subproject:nth-of-type(2)::before {
+        opacity: 10%;
+    }
+
+    .Subproject> :nth-child(1) {
+        margin-top: 15%;
+        font-size: 4vw;
+    }
+
+    .Subproject> :nth-child(2) {
+        margin-top: 2%;
+        font-size: 1.5vw;
+    }
+
+    .Subproject> :nth-child(3) {
+        margin-top: 2%;
+        font-size: 3vw;
+    }
+
+    .Subproject> :nth-child(4) {
+        margin-top: 2%;
+        font-size: 1.5vw;
+        color: #919191;
+    }
+
+    .Subproject> :nth-child(5) {
+        margin-top: 1%;
+        font-size: 1.5vw;
+    }
+
+    .title {
+        font-size: 1.5vw;
+        width: 10vw;
+        text-align: right;
+        border-bottom: solid white;
+    }
+
+    .title p {
+        margin-bottom: -0.2vh;
+        margin-right: 1vw;
+    }
+
+    #one {
+        font-size: 7vw;
+        text-align: center;
+    }
+
+    #head {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 1.5vw;
+    }
+
+    #ToolBar {
+        position: fixed;
+        top: 90%;
+        left: 25%;
+        display: grid;
+        width: 50vw;
+        grid-template-columns: repeat(5, 1fr);
+        z-index: 99;
+    }
+
+    #ToolBar>div>button {
+        background: none;
+        border: 1px solid #d9d9d9;
+        color: white;
+        font-size: 1.2vw;
+        border-radius: 1vw;
+        margin-left: 1vw;
+        padding: 0.5vw;
+        width: 90%;
+        cursor: pointer;
+    }
+}
