@@ -173,8 +173,8 @@ section:first-child {
     }
 
     #two>div:nth-child(2)>div:nth-child(2) {
-        border-top: solid;
-        border-bottom: solid;
+        border-top: solid #555555;
+        border-bottom: solid #555555;
         padding: 5% 0 5% 0;
     }
 
@@ -481,8 +481,8 @@ section:first-child {
     }
 
     #two>div:nth-child(2)>div:nth-child(2) {
-        border-top: solid;
-        border-bottom: solid;
+        border-top: solid #555555;
+        border-bottom: solid #555555;
         padding: 5% 0 5% 0;
     }
 
@@ -646,8 +646,8 @@ section:first-child {
     }
 
     #two>div:nth-child(2)>div:nth-child(2) {
-        border-top: solid;
-        border-bottom: solid;
+        border-top: solid #555555;
+        border-bottom: solid #555555;
         padding: 5% 0 5% 0;
     }
 
