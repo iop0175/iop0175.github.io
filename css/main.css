@@ -222,8 +222,9 @@ section:first-child {
     }
 
     .back {
+        margin-left: 10%;
         height: 100%;
-        width: 100%;
+        width: 90%;
         display: grid;
         grid-template-columns: 50% 50%;
         overflow: hidden;
@@ -247,8 +248,9 @@ section:first-child {
     }
 
     .DB {
+        margin-left: 10%;
         height: 100%;
-        width: 100%;
+        width: 90%;
         display: grid;
         grid-template-columns: 50% 50%;
         overflow: hidden;
@@ -272,8 +274,9 @@ section:first-child {
     }
 
     .tool {
+        margin-left: 10%;
         height: 100%;
-        width: 100%;
+        width: 90%;
         display: grid;
         grid-template-columns: 50% 50%;
         overflow: hidden;
@@ -515,7 +518,8 @@ section:first-child {
     }
 
     .front {
-        width: 100%;
+        margin: 0 0 0 10%;
+        width: 80%;
         display: grid;
         grid-template-columns: 30% 70%;
         overflow: hidden;
@@ -539,7 +543,8 @@ section:first-child {
     }
 
     .back {
-        width: 100%;
+        margin: 5% 0 0 10%;
+        width: 80%;
         display: grid;
         grid-template-columns: 50% 50%;
         overflow: hidden;
@@ -563,7 +568,8 @@ section:first-child {
     }
 
     .DB {
-        width: 100%;
+        margin: 5% 0 0 10%;
+        width: 80%;
         display: grid;
         grid-template-columns: 50% 50%;
         overflow: hidden;
