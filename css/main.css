@@ -497,6 +497,7 @@ section:first-child {
         grid-template-rows: 70% 30%;
         column-gap: 2vw;
         text-align: center;
+        font-size: 2.5vw;
     }
 
     #three>div:nth-child(2)>div:nth-child(4) {
