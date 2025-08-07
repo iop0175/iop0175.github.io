@@ -417,11 +417,23 @@ section:first-child {
         z-index: 99;
     }
 
-    #ToolBar>div>button {
+     #ToolBar>div>button {
+        height: 100%;
         background: none;
         border: 1px solid #d9d9d9;
         color: white;
         font-size: 2.5vw;
+        border-radius: 1vw;
+        margin-left: 1vw;
+        padding: 0.5vw;
+        width: 90%;
+        cursor: pointer;
+    }
+        #ToolBar>div:nth-child(3)> button {
+        background: none;
+        border: 1px solid #d9d9d9;
+        color: white;
+        font-size: 2vw;
         border-radius: 1vw;
         margin-left: 1vw;
         padding: 0.5vw;
