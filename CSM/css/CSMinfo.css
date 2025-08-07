@@ -1,39 +1,48 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
+
 #head {
     text-align: center;
 }
-#head :nth-child(1){
+
+#head :nth-child(1) {
     color: #00446A;
     font-size: 10vw;
 }
-#head :nth-child(3){
+
+#head :nth-child(3) {
     color: #00446A;
     font-size: 8vw;
 }
-#head :nth-child(4){
+
+#head :nth-child(4) {
     font-size: 3vw;
 }
-.SCtitle{
+
+.SCtitle {
     margin-top: 5%;
     text-align: right;
     width: 20vw;
     border-bottom: #00446A solid;
 }
-#one{
+
+#one {
     width: 100%;
 }
-#two{
+
+#two {
     width: 100%;
 }
-.Dev{
+
+.Dev {
     display: flex;
     margin-top: 2%;
     font-size: 3vw;
 }
-.Dev div:nth-child(1){
+
+.Dev div:nth-child(1) {
     margin-left: 5%;
     background-color: #00446A;
     width: 20%;
@@ -42,12 +51,14 @@ body{
     padding: 2.5%;
     border-radius: 2vw 0 0 2vw;
 }
-.Dev div:nth-child(2){
+
+.Dev div:nth-child(2) {
     width: 60%;
     border: 1px solid;
     padding: 2.5%;
     border-radius: 0vw 2vw 2vw 0vw;
 }
+
 #two>div:nth-child(2)>img {
     margin-top: 5%;
     margin-left: 5%;
@@ -59,23 +70,101 @@ body{
     margin-left: 5%;
     margin-top: 5%;
 }
-.pageti{
+
+.pageti {
     font-size: 3vw;
     text-align: center;
     margin-top: 5%;
 }
-.pageinfo{
+
+.pageinfo {
     margin-left: 10%;
     width: 80%;
     font-size: 2.5vw;
+    text-align: center;
 }
-#four{
+
+#four {
     width: 100%;
 }
-#four > div:nth-child(3){
+
+#four>div:nth-child(3) {
     width: 90%;
     height: 80vh;
     margin-top: 5%;
     margin-left: 5%;
     margin-bottom: 10%;
+}
+
+@media only screen and (min-width: 800px) {
+
+    #head :nth-child(1) {
+        font-size: 5vw;
+    }
+
+    #head :nth-child(3) {
+        font-size: 4vw;
+    }
+
+    #head :nth-child(4) {
+        font-size: 3vw;
+    }
+
+    .SCtitle {
+        margin-top: 5%;
+        text-align: center;
+        width: 10vw;
+        border-bottom: #00446A solid;
+        font-size: 1.5vw;
+    }
+
+    #one {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    #two {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    #two>div:nth-child(2)>img {
+
+        width: 90%;
+    }
+
+    #three {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    #four {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    #one>div:nth-child(2) {
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 10%;
+        margin-bottom: 20vh;
+    }
+
+    .Dev {
+        font-size: 1vw;
+    }
+
+    .pageti {
+        font-size: 2vw;
+        font-weight: bold;
+    }
+
+    .pageinfo {
+        font-size: 1.2vw;
+    }
+
+    #three>div>img {
+        width: 90%;
+    }
 }
