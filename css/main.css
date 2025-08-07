@@ -345,7 +345,7 @@ section:first-child {
     }
 
     .Subproject:nth-of-type(2) {
-        background-image: url(workway.png);
+        background-image: url(../img/workway.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -633,7 +633,7 @@ section:first-child {
     }
 
     .teamproject:nth-of-type(2) {
-        background-image: url(로그인이밎\ 1.png);
+        background-image: url(../img/로그인이밎\ 1.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
