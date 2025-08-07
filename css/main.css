@@ -159,7 +159,7 @@ section:first-child {
 
     #two div:nth-child(2)>div:nth-child(2) {
         width: 80%;
-        text-align: center;
+        text-align: left;
         font-size: 3vw;
     }
 
