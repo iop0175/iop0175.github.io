@@ -360,7 +360,7 @@ section:first-child {
     }
 
     .Subproject:nth-of-type(2) {
-        background-image: url(../img/workway.png);
+        background-image: url(../img/pngegg.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -721,7 +721,7 @@ section:first-child {
     }
 
     .Subproject:nth-of-type(2) {
-        background-image: url(../img/workway.png);
+        background-image: url(../img/pngegg.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
