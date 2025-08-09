@@ -1,9 +1,10 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: #333F50;
 }
-#head{
+
+#head {
     width: 100%;
     height: 10vh;
     color: white;
@@ -12,43 +13,51 @@ body{
     align-items: center;
     font-size: 4vw;
 }
-#head :nth-child(1){
+
+#head :nth-child(1) {
     margin-left: 5%;
 }
-section{
+
+section {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: white;
 }
-#one{
+
+#one {
     background-color: #333F50;
     height: 90vh;
     color: white;
 }
-#one > :nth-child(1){
+
+#one> :nth-child(1) {
     margin-top: 25vh;
     font-size: 15vw;
     padding-bottom: 3vh;
     border-bottom: 1px solid;
 }
-#one > :nth-child(2){
+
+#one> :nth-child(2) {
     padding-top: 3vh;
     font-size: 5vw;
 }
-.SectionTi{
+
+.SectionTi {
     margin-top: 3%;
     font-size: 4vw;
     background-color: white;
     width: 100%;
     border-bottom: 1px solid #333F50;
 }
-.SectionTi >div:nth-child(1){
+
+.SectionTi>div:nth-child(1) {
     margin-bottom: 3%;
     margin-left: 2%;
 }
-#two > div:nth-child(2) > div{
+
+#two>div:nth-child(2)>div {
     margin-top: 5%;
     margin-left: 10%;
     width: 80%;
@@ -56,23 +65,27 @@ section{
     font-size: 4vw;
     text-align: center;
 }
-#two > div:nth-child(2) > div> div:nth-child(1){
+
+#two>div:nth-child(2)>div>div:nth-child(1) {
     text-align: center;
     background-color: #333F50;
     font-size: 4vw;
     color: white;
     padding: 5%;
 }
-#two > div:nth-child(2) > div> div:nth-child(2){
+
+#two>div:nth-child(2)>div>div:nth-child(2) {
     text-align: center;
     font-size: 3vw;
     padding: 5%;
 }
-#two > div:nth-child(2){
+
+#two>div:nth-child(2) {
     margin-top: 5%;
     width: 80%;
 }
-#three > div:nth-child(2) > div{
+
+#three>div:nth-child(2)>div {
     margin-top: 5%;
     margin-left: 10%;
     width: 80%;
@@ -80,59 +93,194 @@ section{
     font-size: 4vw;
     text-align: center;
 }
-#three > div:nth-child(2) > div> div:nth-child(1){
+
+#three>div:nth-child(2)>div>div:nth-child(1) {
     text-align: center;
     font-size: 4vw;
     color: white;
     padding: 5%;
 }
-#three > div:nth-child(2) > div:nth-child(1)> div:nth-child(1){
+
+#three>div:nth-child(2)>div:nth-child(1)>div:nth-child(1) {
     background-color: #DFD3D7;
 }
-#three > div:nth-child(2) > div:nth-child(2)> div:nth-child(1){
+
+#three>div:nth-child(2)>div:nth-child(2)>div:nth-child(1) {
     background-color: #6D8CAC;
 }
-#three > div:nth-child(2) > div:nth-child(3)> div:nth-child(1){
+
+#three>div:nth-child(2)>div:nth-child(3)>div:nth-child(1) {
     background-color: #326393;
 }
-#three > div:nth-child(2) > div> div:nth-child(2){
+
+#three>div:nth-child(2)>div>div:nth-child(2) {
     text-align: center;
     font-size: 3vw;
     padding: 5%;
 }
-#three > div:nth-child(2){
+
+#three>div:nth-child(2) {
     margin-top: 1%;
     width: 80%;
 }
-section > img{
+
+section>img {
     margin-top: 9%;
     width: 80%;
 }
-.pageTi{
+
+.pageTi {
     width: 100%;
     margin-top: 5%;
     font-weight: bold;
 }
-.pageTi > div{
+
+.pageTi>div {
     margin-left: 10%;
     font-size: 3vw;
 }
-.pageinfo{
+
+.pageinfo {
     margin-top: 5%;
     width: 80%;
     font-size: 3vw;
     text-align: center;
 }
-#six > div:nth-child(2){
+
+#six>div:nth-child(2) {
     margin-top: 10%;
     margin-bottom: 20%;
 }
-@media only screen and (min-width: 800px){
-    #two > div:nth-child(2){
-    margin-top: 10%;
-    width: 90%;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    column-gap: 5%;
-}
+
+@media only screen and (min-width: 800px) {
+    #head {
+        font-size: 2vw;
+    }
+
+    #head :nth-child(2) {
+        text-align: right;
+        margin-right: 20%;
+    }
+
+    #one> :nth-child(1) {
+        font-size: 8vw;
+    }
+
+    #one> :nth-child(2) {
+        font-size: 3vw;
+    }
+
+    .SectionTi {
+        width: 70%;
+        margin-top: 3%;
+        font-size: 2vw;
+    }
+
+    .SectionTi>div:nth-child(1) {
+        margin-bottom: 3%;
+    }
+
+    #two>div:nth-child(2)>div {
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 80%;
+        border: 1px solid #333F50;
+        border-radius: 2vw;
+        text-align: center;
+    }
+
+    #two>div:nth-child(2)>div>div:nth-child(1) {
+        border-radius: 2vw 2vw 0 0;
+        text-align: center;
+        background-color: #333F50;
+        font-size: 1.5vw;
+        color: white;
+        padding: 5%;
+    }
+
+    #two>div:nth-child(2)>div>div:nth-child(2) {
+        margin-left: 10%;
+        width: 70%;
+        text-align: center;
+        font-size: 1.5vw;
+        padding: 5%;
+    }
+
+    #two>div:nth-child(2) {
+        width: 70%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 5%;
+    }
+
+    #three>div:nth-child(2)>div {
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 80%;
+        border: 1px solid #333F50;
+        font-size: 2vw;
+        text-align: center;
+    }
+
+    #three>div:nth-child(2)>div>div:nth-child(1) {
+        text-align: center;
+        font-size: 1.5vw;
+        color: white;
+        padding: 5%;
+    }
+
+    #three>div:nth-child(2)>div:nth-child(1)>div:nth-child(1) {
+        color: black;
+        background-color: #DFD3D7;
+    }
+
+    #three>div:nth-child(2)>div:nth-child(2)>div:nth-child(1) {
+        background-color: #6D8CAC;
+    }
+
+    #three>div:nth-child(2)>div:nth-child(3)>div:nth-child(1) {
+        background-color: #326393;
+    }
+
+    #three>div:nth-child(2)>div>div:nth-child(2) {
+        margin-left: 10%;
+        width: 70%;
+        text-align: center;
+        font-size: 1.5vw;
+        padding: 5%;
+    }
+
+    #three>div:nth-child(2) {
+        width: 70%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 5%;
+    }
+    #five > img {
+        width: 40%;
+    }
+    section > img {
+        margin-top: 5%;
+        width: 60%;
+    }
+
+    .pageTi {
+        width: 50%;
+    }
+
+    .pageTi>div {
+        margin-left: 10%;
+        font-size: 2vw;
+    }
+
+    .pageinfo {
+        margin-top: 5%;
+        width: 50%;
+        font-size: 1vw;
+        text-align: center;
+    }
+    #six>div:nth-child(2) {
+    margin-top: 5%;
+    margin-bottom: 20%;
+    }
 }
